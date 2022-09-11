@@ -24,7 +24,7 @@ function App() {
       } else {
         setSeconds(d.getSeconds())
       }
-    }, 1000);
+    }, 100);
     return () => clearInterval(interval);
   }, []);
 
